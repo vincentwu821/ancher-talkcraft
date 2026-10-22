@@ -7,11 +7,11 @@ Ancher TalkCraft is an Agent Skill that helps you learn narrative structures fro
 ## Download
 
 - [WorkBuddy package (.skill)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-v1.0.0.skill)
-- [Standard Agent Skills package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-v1.0.0.zip)
+- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-v1.0.0.zip)
 - [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-doubao-v1.0.0.zip)
 - [All releases](https://github.com/vincentwu821/ancher-talkcraft/releases)
 
-The standard ZIP and WorkBuddy .skill package contain identical files. The Doubao Work package uses a lowercase `skill.md` entry point. These packages adapt the same workflow to different import conventions.
+**Codex and Claude Code use the same ZIP package.** Follow the separate installation instructions for your app below; their installation folders and invocation commands differ. The WorkBuddy .skill package contains the same files, packaged with the extension used by its upload interface. The Doubao Work ZIP uses a lowercase `skill.md` entry point.
 
 ## What it does
 
@@ -27,7 +27,7 @@ Already have footage? Start directly with editing; that branch does not require 
 
 ### Codex
 
-Extract the standard ZIP so the complete folder is located at:
+Download the **Codex / Claude Code package (.zip)** above and extract it so the complete folder is located at:
 
 ```text
 ~/.agents/skills/ancher-talkcraft/SKILL.md
@@ -47,7 +47,7 @@ Invoke `/ancher-talkcraft`. A project-level `.claude/skills/` directory can also
 
 ### WorkBuddy
 
-Open the Skills section, choose **Add skill > Upload skill**, and upload the `.skill` package. If your client only accepts ZIP files, use the standard ZIP instead. Confirm that the imported skill is enabled.
+Open the Skills section, choose **Add skill > Upload skill**, and upload the **WorkBuddy package (.skill)** above. If your client only accepts ZIP files, upload the ZIP download instead; its contents are identical. Confirm that the imported skill is enabled.
 
 ### Doubao Work
 
