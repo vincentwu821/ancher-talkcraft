@@ -18,12 +18,25 @@ Choose your host agent when prompted. You can also give the GitHub repository UR
 
 ## Download
 
-- [WorkBuddy package (.skill)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.1/ancher-talkcraft-v1.0.1.skill)
-- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.1/ancher-talkcraft-v1.0.1.zip)
-- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.1/ancher-talkcraft-doubao-v1.0.1.zip)
+- [WorkBuddy package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.2/ancher-talkcraft-v1.0.2.zip)
+- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.2/ancher-talkcraft-v1.0.2.zip)
+- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.2/ancher-talkcraft-doubao-v1.0.2.zip)
 - [All releases](https://github.com/vincentwu821/ancher-talkcraft/releases)
 
-**Codex and Claude Code use the same ZIP package.** Follow the separate installation instructions for your app below; their installation folders and invocation commands differ. The WorkBuddy .skill package contains the same files, packaged with the extension used by its upload interface. The Doubao Work ZIP uses a lowercase `skill.md` entry point.
+**WorkBuddy, Codex, and Claude Code use the same ZIP package.** Follow the separate installation instructions for your app below; their import methods, installation folders, and invocation commands differ. The Doubao Work ZIP uses a lowercase `skill.md` entry point.
+
+The ZIP contains one complete skill folder. After extraction, its structure is:
+
+```text
+ancher-talkcraft/
+├── SKILL.md
+├── references/
+├── scripts/
+├── assets/
+└── ...
+```
+
+Keep the folder and its supporting files together. Do not upload only `SKILL.md`, add an extra wrapper directory, or include a `.git` directory.
 
 ## What it does
 
@@ -59,7 +72,7 @@ Invoke `/ancher-talkcraft`. A project-level `.claude/skills/` directory can also
 
 ### WorkBuddy
 
-Open the Skills section, choose **Add skill > Upload skill**, and upload the **WorkBuddy package (.skill)** above. If your client only accepts ZIP files, upload the ZIP download instead; its contents are identical. Confirm that the imported skill is enabled.
+Open the Skills section, choose **Add skill > Upload skill**, and upload the **WorkBuddy package (.zip)** above. Keep the `.zip` extension; do not rename it to `.skill`. WorkBuddy handles unpacking the uploaded package. If your import interface offers a folder picker, select the complete extracted `ancher-talkcraft` folder shown above. Confirm that the imported skill is enabled. Importing for your own use does not publish the skill to the public marketplace.
 
 ### Doubao Work
 

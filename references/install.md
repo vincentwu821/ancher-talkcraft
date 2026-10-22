@@ -18,7 +18,7 @@ Claude Code：整个文件夹放在 `~/.claude/skills/` 或项目 `.claude/skill
 
 ## WorkBuddy
 
-在“专家·技能·连接器”进入技能，选择“添加技能 → 上传技能”，导入发行包ZIP或客户端接受的.skill包；在已安装列表确认启用。本包同时输出扩展名为.skill的ZIP副本。若某版本只接受其中一种扩展名，用该UI支持的文件，不声称所有版本都接受所有扩展名。
+在“专家·技能·连接器”进入技能，选择“添加技能 → 上传技能”，上传发行包 ZIP，保留 `.zip` 扩展名，不改为 `.skill`。ZIP 解压后应是 `ancher-talkcraft/SKILL.md`，旁边保留 references、scripts、assets 等资源；不要只上传 SKILL.md，也不要额外套一层目录。上传 ZIP 时由客户端解包；若当前界面提供文件夹导入，则选择解压后的完整 ancher-talkcraft 文件夹。在“已安装”中确认启用。本地导入不等于公开上架技能市场。
 
 官方说明：https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market
 
