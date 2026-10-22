@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+project-state.json
+registration.json
+dist/
+outputs/
+work/

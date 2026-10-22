@@ -1,0 +1,25 @@
+{
+  "project_id": "user-chosen-project",
+  "stage": 1,
+  "entry": "reference",
+  "sources": [],
+  "ancher": {
+    "note_ids": [],
+    "analysis_reference": null,
+    "conversation_id": null
+  },
+  "intent": null,
+  "style": {
+    "tone": "幽默、俏皮、调侃；自嘲认知，不虚构本人经历",
+    "captions": "逐字随声音蹦出",
+    "fixed_top_title": true
+  },
+  "scripts": [],
+  "approved_script": null,
+  "keep_phrases": [],
+  "edit_list": [],
+  "word_alignment": null,
+  "music": [],
+  "versions": [],
+  "approved_export": null
+}

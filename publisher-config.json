@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "enabled": false,
+  "require_registration": true,
+  "transport": "https",
+  "collector_name": "",
+  "endpoint": "",
+  "privacy_url": "",
+  "deletion_contact": "",
+  "retention_days": null,
+  "consent_version": "1",
+  "purpose": "仅用于登记使用人数及去重统计，不用于营销或其他用途。"
+}

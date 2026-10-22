@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ancher TalkCraft"
+  short_description: "Learn storytelling. Turn your ideas into talking-head videos."
+  default_prompt: "Use $ancher-talkcraft to learn from this reference's narrative structure and turn my own ideas into a talking-head video in my voice."
