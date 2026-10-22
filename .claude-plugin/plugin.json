@@ -1,6 +1,6 @@
 {
   "name": "ancher-talkcraft",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Learn storytelling from great creators, express your own ideas, and turn them into talking-head videos with Ancher.",
   "author": {
     "name": "Vincent Wu",
@@ -18,5 +18,6 @@
   "skills": [
     "./"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "displayName": "Ancher TalkCraft"
 }

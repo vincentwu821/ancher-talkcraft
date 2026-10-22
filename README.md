@@ -33,9 +33,9 @@ Choose your host agent when prompted. You can also give the GitHub repository UR
 
 ## Download
 
-- [WorkBuddy package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.1/ancher-talkcraft-v1.1.1.zip)
-- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.1/ancher-talkcraft-v1.1.1.zip)
-- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.1/ancher-talkcraft-doubao-v1.1.1.zip)
+- [WorkBuddy package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.2/ancher-talkcraft-v1.1.2.zip)
+- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.2/ancher-talkcraft-v1.1.2.zip)
+- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.2/ancher-talkcraft-doubao-v1.1.2.zip)
 - [All releases](https://github.com/vincentwu821/ancher-talkcraft/releases)
 
 **WorkBuddy, Codex, and Claude Code use the same ZIP package.** Follow the separate installation instructions for your app below; their import methods, installation folders, and invocation commands differ. The Doubao Work ZIP uses a lowercase `skill.md` entry point.
@@ -121,6 +121,8 @@ a rough cut without music first.
 See [the full workflow](SKILL.md) and [installation and capability details](references/install.md).
 
 ## Privacy and optional registration
+
+Read the [Privacy](https://github.com/vincentwu821/ancher-talkcraft/blob/main/PRIVACY.md) for the data used by this skill, local project storage, connections to Ancher and other selected tools, retention, and deletion. Ancher processing is also governed by [Ancher’s Privacy Policy](https://ancher.ai/privacy).
 
 Email registration is **disabled by default**. The distributed configuration contains no collector endpoint, credentials, or recipient identity. It does not collect or send email addresses unless a publisher explicitly configures registration and a user gives informed consent.
 
