@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "enabled": false,
   "require_registration": true,
   "transport": "https",

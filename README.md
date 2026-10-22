@@ -18,9 +18,9 @@ Choose your host agent when prompted. You can also give the GitHub repository UR
 
 ## Download
 
-- [WorkBuddy package (.skill)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-v1.0.0.skill)
-- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-v1.0.0.zip)
-- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-doubao-v1.0.0.zip)
+- [WorkBuddy package (.skill)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.1/ancher-talkcraft-v1.0.1.skill)
+- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.1/ancher-talkcraft-v1.0.1.zip)
+- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.1/ancher-talkcraft-doubao-v1.0.1.zip)
 - [All releases](https://github.com/vincentwu821/ancher-talkcraft/releases)
 
 **Codex and Claude Code use the same ZIP package.** Follow the separate installation instructions for your app below; their installation folders and invocation commands differ. The WorkBuddy .skill package contains the same files, packaged with the extension used by its upload interface. The Doubao Work ZIP uses a lowercase `skill.md` entry point.
