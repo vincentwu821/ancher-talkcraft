@@ -4,6 +4,21 @@
 
 Ancher TalkCraft is an Agent Skill that helps you learn narrative structures from videos, podcasts, articles, and posts, then use those structures to express your own ideas on camera. It covers the journey from a reference and a one-sentence idea to a script, recorded footage, an edited video, and social publishing assets.
 
+## Install directly inside Claude Code
+
+Run these two commands in a Claude Code conversation:
+
+```text
+/plugin marketplace add vincentwu821/ancher-talkcraft
+/plugin install ancher-talkcraft@ancher
+```
+
+Choose **Install for you** in the plugin panel. You can also open `/plugin`, go to **Discover**, and search for `ancher-talkcraft` after adding the Ancher marketplace. Claude Code downloads and installs the plugin for you; you do not need to visit GitHub or download a ZIP manually.
+
+Once installed, ask Claude Code to use Ancher TalkCraft. The bundled skill can also be invoked as `/ancher-talkcraft:ancher-talkcraft`. The scripting stage requires connecting your own Ancher account; the skill guides you through that setup when needed.
+
+This is the publisher-maintained **Ancher marketplace**, not an approved listing in Anthropic's default `claude-plugins-official` marketplace. An official directory submission and its review are separate.
+
 ## Find and install on skills.sh
 
 [View Ancher TalkCraft on skills.sh](https://skills.sh/vincentwu821/ancher-talkcraft/ancher-talkcraft).
@@ -18,9 +33,9 @@ Choose your host agent when prompted. You can also give the GitHub repository UR
 
 ## Download
 
-- [WorkBuddy package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.2/ancher-talkcraft-v1.0.2.zip)
-- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.2/ancher-talkcraft-v1.0.2.zip)
-- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.2/ancher-talkcraft-doubao-v1.0.2.zip)
+- [WorkBuddy package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.0/ancher-talkcraft-v1.1.0.zip)
+- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.0/ancher-talkcraft-v1.1.0.zip)
+- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.0/ancher-talkcraft-doubao-v1.1.0.zip)
 - [All releases](https://github.com/vincentwu821/ancher-talkcraft/releases)
 
 **WorkBuddy, Codex, and Claude Code use the same ZIP package.** Follow the separate installation instructions for your app below; their import methods, installation folders, and invocation commands differ. The Doubao Work ZIP uses a lowercase `skill.md` entry point.
@@ -62,13 +77,13 @@ Keep `references/`, `scripts/`, `assets/`, and the other included files alongsid
 
 ### Claude Code
 
-Extract the same folder into:
+Use the [in-app marketplace installation](#install-directly-inside-claude-code) above. If you prefer a standalone skill instead of the plugin, extract the ZIP folder into:
 
 ```text
 ~/.claude/skills/ancher-talkcraft/SKILL.md
 ```
 
-Invoke `/ancher-talkcraft`. A project-level `.claude/skills/` directory can also be used.
+For this standalone installation, invoke `/ancher-talkcraft`. A project-level `.claude/skills/` directory can also be used. Choose one installation method so you do not load duplicate copies.
 
 ### WorkBuddy
 

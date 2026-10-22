@@ -1,0 +1,14 @@
+{
+  "name": "ancher",
+  "description": "Ancher tools for learning narrative structure and creating talking-head videos.",
+  "owner": {
+    "name": "Vincent Wu"
+  },
+  "plugins": [
+    {
+      "name": "ancher-talkcraft",
+      "source": "./",
+      "description": "Learn storytelling from great creators and turn your own ideas into talking-head videos with Ancher."
+    }
+  ]
+}

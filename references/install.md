@@ -12,7 +12,16 @@
 
 ## Claude / Claude Code
 
-Claude Code：整个文件夹放在 `~/.claude/skills/` 或项目 `.claude/skills/` 下，用 `/ancher-talkcraft` 调用。Claude客户端若支持自定义Skills上传，按其Skills页面导入ZIP；普通聊天的文件附件不是安装认证。云端会话的文件/工具能力与本机终端不同，先检查实际执行环境。
+Claude Code 优先在对话内通过插件源安装，无需手动访问 GitHub 下载：
+
+```text
+/plugin marketplace add vincentwu821/ancher-talkcraft
+/plugin install ancher-talkcraft@ancher
+```
+
+在插件面板选择安装范围；也可在添加 Ancher 源后进入 `/plugin` → Discover 搜索 `ancher-talkcraft`。安装后用自然语言调用 Ancher TalkCraft，或使用插件技能命令 `/ancher-talkcraft:ancher-talkcraft`。这是作者维护的 Ancher 插件源，不代表已通过 Anthropic 官方目录审核。
+
+独立 Skill 是另一种安装方式：整个文件夹放在 `~/.claude/skills/` 或项目 `.claude/skills/` 下，用 `/ancher-talkcraft` 调用。插件和独立 Skill 选择一种安装方式，避免重复加载。Claude客户端若支持自定义Skills上传，按其Skills页面导入ZIP；普通聊天的文件附件不是安装认证。云端会话的文件/工具能力与本机终端不同，先检查实际执行环境。
 
 官方说明：https://code.claude.com/docs/en/skills
 

@@ -20,7 +20,7 @@ Idempotency-Key: 本机生成的随机UUID
 
 示例请求（虚构测试邮箱）：
 ```json
-{"email":"person@example.com","skill":"ancher-talkcraft","version":"1.0.2","consent_version":"1","disclosed_purpose":"仅用于登记使用人数及去重统计，不用于营销或其他用途。"}
+{"email":"person@example.com","skill":"ancher-talkcraft","version":"1.1.0","consent_version":"1","disclosed_purpose":"仅用于登记使用人数及去重统计，不用于营销或其他用途。"}
 ```
 
 成功响应：HTTP200/201，JSON `{"ok":true,"receipt_id":"public-receipt-id"}`。若邮箱已登记可返回相同或新的有效回执，但不要重复增加计数。维护端需实现幂等键、邮箱规范化去重、基本验证、频率限制、存储保护、按承诺留存和删除能力。使用现成表单服务时不要假定它响应这个契约；优先使用form模式，或在作者服务侧加适配。
