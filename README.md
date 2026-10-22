@@ -33,9 +33,9 @@ Choose your host agent when prompted. You can also give the GitHub repository UR
 
 ## Download
 
-- [WorkBuddy package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.0/ancher-talkcraft-v1.1.0.zip)
-- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.0/ancher-talkcraft-v1.1.0.zip)
-- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.0/ancher-talkcraft-doubao-v1.1.0.zip)
+- [WorkBuddy package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.1/ancher-talkcraft-v1.1.1.zip)
+- [Codex / Claude Code package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.1/ancher-talkcraft-v1.1.1.zip)
+- [Doubao Work package (.zip)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.1.1/ancher-talkcraft-doubao-v1.1.1.zip)
 - [All releases](https://github.com/vincentwu821/ancher-talkcraft/releases)
 
 **WorkBuddy, Codex, and Claude Code use the same ZIP package.** Follow the separate installation instructions for your app below; their import methods, installation folders, and invocation commands differ. The Doubao Work ZIP uses a lowercase `skill.md` entry point.
@@ -125,6 +125,10 @@ See [the full workflow](SKILL.md) and [installation and capability details](refe
 Email registration is **disabled by default**. The distributed configuration contains no collector endpoint, credentials, or recipient identity. It does not collect or send email addresses unless a publisher explicitly configures registration and a user gives informed consent.
 
 Keep recordings, generated scripts, account tokens, and registration receipts in your own project or local state directories, outside the distributable skill folder. See [publisher setup](references/publisher-setup.md) before enabling registration.
+
+## License
+
+The original skill instructions, code, and documentation are licensed under the [MIT License](LICENSE). Third-party tutorial images and their embedded content are excluded from that grant and remain subject to their respective owners’ rights.
 
 ## Third-party tutorial material
 

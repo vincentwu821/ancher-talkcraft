@@ -1,6 +1,6 @@
 {
   "name": "ancher-talkcraft",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Learn storytelling from great creators, express your own ideas, and turn them into talking-head videos with Ancher.",
   "author": {
     "name": "Vincent Wu",
@@ -8,6 +8,15 @@
   },
   "homepage": "https://github.com/vincentwu821/ancher-talkcraft#readme",
   "repository": "https://github.com/vincentwu821/ancher-talkcraft",
-  "keywords": ["ancher", "talking-head-video", "storytelling", "video-editing", "content-creation"],
-  "skills": ["./"]
+  "keywords": [
+    "ancher",
+    "talking-head-video",
+    "storytelling",
+    "video-editing",
+    "content-creation"
+  ],
+  "skills": [
+    "./"
+  ],
+  "license": "MIT"
 }
