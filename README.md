@@ -4,6 +4,18 @@
 
 Ancher TalkCraft is an Agent Skill that helps you learn narrative structures from videos, podcasts, articles, and posts, then use those structures to express your own ideas on camera. It covers the journey from a reference and a one-sentence idea to a script, recorded footage, an edited video, and social publishing assets.
 
+## Find and install on skills.sh
+
+[View Ancher TalkCraft on skills.sh](https://skills.sh/vincentwu821/ancher-talkcraft/ancher-talkcraft).
+
+With Node.js and npm available, run:
+
+```sh
+npx skills add vincentwu821/ancher-talkcraft --skill ancher-talkcraft
+```
+
+Choose your host agent when prompted. You can also give the GitHub repository URL to your agent and ask it to install the skill. A skills.sh listing is independent of the built-in Codex, ChatGPT, and WorkBuddy directories.
+
 ## Download
 
 - [WorkBuddy package (.skill)](https://github.com/vincentwu821/ancher-talkcraft/releases/download/v1.0.0/ancher-talkcraft-v1.0.0.skill)
